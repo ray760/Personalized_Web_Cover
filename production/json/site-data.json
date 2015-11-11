@@ -1,0 +1,20 @@
+{
+  "coverLetter":[
+    {
+      "url": "imgs/my-profile-image.jpg",
+      "alt": "Image of Ray",
+      "name": {
+        "first" : "Ray",
+        "last" : "Robertson"
+      },
+      "title": "Front End Developer",
+      "text": {
+        "pTagOne": "Hi DELL,",
+        "pTagTwo": "My name is Ray and I’m a Front End Web Developer. I was doing a search on Indeed and came across the job opening for a “Principal Software JavaScript Ninja” with your Dell SecureWorks division. I thought, “DELL, legendary company!” and “ They have an opening I can apply to…Awesome Sauce!” so in an effort to show how serious I am about working for your company and this role, I put together this online cover letter to touch upon some of the key skill you are looking for in this role.",
+        "pTagThree": "Although there is not much going on here other than a picture of me smiling, my name and this text, I did take some time to put it together using some of the key requirements listed in the job description. First and foremost there is HTML, CSS and the Bootstrap framework for layout and responsive purposes, so feel free to view and share this on a mobile device. To speed up my development I created a Gulp starter file and used NPM for all my dependencies. I chose the Angular framework as it seems that’s what all the cool kids are raving about these days, but I also have experience working in Backbone as well. To simulate working with a RESTful API I created a static JSON file and used an Angular controller it's $http.get() to add the information you are viewing on this page. All files can be found on GitHub as well.",
+        "pTagFour": "Well enough tech babel, what about me? When I’m not working I enjoy and cherish spending quality time with my wife and two boys. Being there as my boys learn, grow and play is beyond amazing and it’s great to find something you enjoy doing and have it be a means to provide for your family. This inspires and encourages me to give my all at everything I do in order to maintain a great environment and quality of life for my family and myself. I believe I could bring my skillset, and all around good vibes to DELL and foster a mutually affinity that would last for years to come. I hope that I can have the opportunity to further present myself and discuss the prospect of being part of the DELL team. Thank you for your time and consideration.",
+        "pTagFive": "Regards,"
+      }
+    }
+  ]
+} 

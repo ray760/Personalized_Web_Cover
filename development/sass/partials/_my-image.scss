@@ -1,0 +1,15 @@
+##{$mainContainer} {
+  .#{$imageEl} {
+    border: 5px solid $dellBlue;
+    border-radius: 10%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    width: 152px;
+  }
+
+  .info-title{
+  	span{
+  	  color: $dellBlue;
+  	}
+  }
+}

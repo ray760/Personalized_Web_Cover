@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ray Robertson | Hey DELL! I'm You're Guy.</title>
+  <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-app="coverApp" >
+	<!-- Blue bar at top of the page -->
+	<div class="topBlue"></div>
+
+	<!-- Main Bootstrap container -->
+	<div id="rayfolio-dell" class="container" ng-controller="coverController">
+      
+      <div class="row">
+        <div class="col-xs-6"> 
+          <img class="myImg" ng-src="{{coverLetter.url}}" alt="{{coverLetter.alt}}"> 
+        </div>
+        <div class="col-xs-6">
+          <ul>
+            <li><a href="http://www.rayfolio.com">Website</a> </li>
+            <li><a href="mailto:ray760@rayfolio.com?Subject=Rayfolio%20Inquiry">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/rayarobertson">LinkedIn</a></li>
+            <li><a href="">Resume</a></li>
+            <li><a href="https://github.com/ray760">GitHub</a></li>
+          </ul>
+        </div>
+      </div> <!-- End Row -->
+
+      <div class="row">
+      	<div class="col-md-12 info-title">
+      	  <h2>
+      	  	{{coverLetter.name.first}}<br>
+      	  	{{coverLetter.name.last}}<br>
+      	  	<span>{{coverLetter.title}}</span>
+      	  </h2>	
+      	</div>
+      </div> <!-- End Row -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <p>{{coverLetter.text.pTagOne}}</p>
+          
+          <p>{{coverLetter.text.pTagTwo}}</p>
+
+          <p>{{coverLetter.text.pTagThree}}</p>
+
+          <p>{{coverLetter.text.pTagFour}}</p>
+
+          <p>
+            {{coverLetter.text.pTagFive}}<br>
+            {{fullName()}}
+          </p> <!-- End Row -->
+        </div>
+      </div>
+
+	</div>
+  
+  <script type="text/javascript" src="vendor/js/vendor.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
