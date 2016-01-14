@@ -32,8 +32,8 @@ var gulp = require('gulp'), // GULP
     paths = {
       vendor_js: [
         'node_modules/angular/angular.min.js',
-        'node_modules/angular-sanitize/angular-sanitize.min.js',
-        'node_modules/angular-route/angular-route.min.js'
+        'node_modules/angular-route/angular-route.min.js',
+        'node_modules/angular-sanitize/angular-sanitize.min.js'
       ],
       css: [
         'node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -52,7 +52,7 @@ var gulp = require('gulp'), // GULP
 /* This task minifies scripts using 'gulp-uglify'*/
 gulp.task('scripts', function(){
   gulp.src('development/js/*.js')
-  .pipe(uglify())
+  //.pipe(uglify()) // Uncomment this to minifiy JavaScript
   .pipe(gulp.dest('production/js'))
   .pipe(connect.reload());
 });
@@ -71,7 +71,7 @@ gulp.task('styles', function(){
     html: ['index.html']
   }))*/
   .pipe(plumber())
-  .pipe(minifyCss())
+  //.pipe(minifyCss()) // Uncomment this to minifiy CSS
   .pipe(gulp.dest('production/css'))
   .pipe(connect.reload()); 
 });

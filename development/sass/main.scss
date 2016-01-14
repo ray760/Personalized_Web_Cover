@@ -12,11 +12,23 @@ h2{
   font-weight: 900;
 }
 a,p{
+  color: #333;
   font-family: $ralewayFont;
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
   margin-bottom: 30px; 
+}
+p{
+  a{
+    border-bottom: 1px dashed $accentColor;
+    text-decoration: none;
+  }
+  a:hover {
+    background: $accentColor;
+    color: #fff;
+    text-decoration: none;
+  }
 }
 ul{
   margin: 65px 0 0 0;
@@ -26,13 +38,11 @@ ul{
 #rayfolio-dell{
   visibility: hidden;
   a{
-    color: #333;
     line-height: 24px;
-    padding-left: 10px;
   }
 }
 .topBlue {
-  background: $dellBlue;
+  background: $accentColor;
   height: 5px;
   position: relative;
   width: auto;
