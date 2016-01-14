@@ -31,8 +31,9 @@ var gulp = require('gulp'), // GULP
 
     paths = {
       vendor_js: [
-        'node_modules/angular/angular.js',
-        'node_modules/angular-route/angular-route.js'
+        'node_modules/angular/angular.min.js',
+        'node_modules/angular-sanitize/angular-sanitize.min.js',
+        'node_modules/angular-route/angular-route.min.js'
       ],
       css: [
         'node_modules/bootstrap/dist/css/bootstrap.min.css'
